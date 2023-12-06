@@ -1,0 +1,142 @@
+html,body{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration:none;
+    color:gray;
+}
+
+.flex-row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+ul{
+    list-style-type: none;
+}
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 4rem;
+}
+.nav{
+background:white;
+padding:0 2rem;
+height:0rem;
+min-height:10vh;
+overflow: hidden;
+transition:height 1s ease-in-out;
+box-shadow:  6px 6px  10px -1px rgba(0,0,0,0.15),
+            -6px -6px 10px -1px rgba(255,255,255,0.7);
+border:1px solid rgba(0,0,0,0);
+    }
+    .nav .nav-menu{
+        justify-content:space-between;
+                }
+    .nav .toggle-collapse{
+        position:absolute;
+        top:0%;
+        width:90%;
+        cursor:pointer;
+        display:none;
+                        }
+
+.nav .toggle-collapse .toggle-icons{
+display:flex;
+justify-content:flex-end;
+padding:1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-iconsi{
+font-size:1.4rem;
+color:gray;
+}
+
+.collapse{
+height:30rem;
+}
+
+.nav .nav-item{
+    display: flex;
+margin:0;
+}
+.nav .nav-item .nav-link{
+    padding:1.6rem 1rem;
+    font-size:1.1rem;
+position:relative;
+font-size:1.1rem;
+
+}
+.nav .nav-item .nav-link a{
+    color:gray;
+}
+
+.nav .nav-item .nav-link:hover{
+background-color:#104f55;
+
+}
+
+.nav .nav-item .nav-link:hover a{
+color:white;
+}
+.nav .nav-item .nav-link .fa{
+margin-right:1rem;
+}
+
+.nav .navbar-brand a{
+font-size:1.6rem;
+padding:1rem 0;
+display:block;
+font-size:1.6rem;
+}
+.nav .social{
+    padding: 1.4rem 0;
+}
+.nav .social i{
+    padding:0.2rem;
+}
+
+.nav .social i:hover{
+    color:#a1c4fd;
+}
+main .site-title{
+    background:url('../assets/Background-image.png');
+    background-size:cover;
+    height:110vh;
+    display:flex;
+    justify-content: center;
+}
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: white;
+}
+
+main .site-title h1,h3{
+    margin:.3rem;
+
+}
+
+main .site-title .btn{
+    margin:1.8rem;
+    background:linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+main .site-title .btn:hover{
+    background:transparent;
+    border:1px solid white;
+    color: white;
+}
